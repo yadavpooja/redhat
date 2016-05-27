@@ -4,7 +4,8 @@
 """ Problem: Create a selenium or python test script to login
 web page with username and password."""
 
-"""script to check login on github with username and password
+"""script to check login on github with username and password.
+A user can try to login maximum 3 times, after which it will exit.
 author: Pooja Yadav
 email: ypooja510@gmail.com"""
 
