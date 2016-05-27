@@ -1,0 +1,98 @@
+Test Plan Id: 0001
+
+Introduction:
+This document contains the test cases to check the login page of GitHub.
+
+Requirements:
+python-selenium 2.45.0
+
+Data Requirements:
+Valid gitHub username and password to for valid login to GitHub account.
+
+Test Strategy
+Test_case01:
+Action: To go to the webpage.
+Expected: Webpage opens
+
+Testcase02:
+Action: To check webpage have a login option.
+Expected: Sign in option should be there.
+
+Testcase03:
+Action: To check we are directed to login page when Sign in option is clicked.
+Expected: Login page should open.
+
+Testcase04:
+Action: To check login page have a username option to enter username.
+Expected: Login page should have a username field.
+
+Testcase05:
+Action: To check login page have a password option to enter the password.
+Expected: Login page should have a password field.
+
+Testcase06:
+Action: To check login page have a Sign in option to log in.
+Expected: Sign in option should be there.
+
+Testcase07:
+Action: To check forgot password option is present on login page.
+Expected: Forgot password option should be present.
+
+Testcase08:
+Action: To check option for new user to create a new account is present.
+Expected: New user option should be present.
+
+Testcase09:
+Action: To check login for valid user.
+Expected: User should be able to log in to his account.
+
+Testcase10:
+Action: To check when forgot password option clicked, it direct to password reset page.
+Expected: Password reset page should open.
+
+Testcase11:
+Action: To check password reset page an email id option for sending the password link.
+Expected: Email id field should be present.
+
+Testcase12:
+Action: To check password reset page have an "Send password reset email" option.
+Expected: Send password reset email option should be present.
+
+Testcase13:
+Action: To check message/alert if invalid email id entered in password reset page.
+Expected: Message "Can't find that email, sorry." should be displayed.
+
+Testcase14:
+Action: To check message/alert displayed when user try to reset password without
+         entering a valid email id.
+Expected: Message "Can't find that email, sorry." should be displayed.
+
+Testcase15:
+Action: To check login for invalid email and invalid password.
+Expected: User should not be logged in and message "Incorrect username or
+           password." should be displayed.
+
+Testcase16:
+Action: To check login without entering username and password.
+Expected: User should not be logged in and message "Incorrect username or
+           password." should be displayed.
+
+Testcase17:
+Action: To check login for valid username and invalid password.
+Expected: User should not be logged in and message "Incorrect username or
+           password." should be displayed.
+
+Testcase18:
+Action: To check login for invalid username and valid password.
+Expected: User should not be logged in and message "Incorrect username or
+           password." should be displayed.
+
+Testcase19:
+Action: To check login with valid username only.
+Expected: User should not be logged in and message "Incorrect username or
+           password." should be displayed.
+
+Testcase20:
+Action: To check login with valid password only.
+Expected: User should not be logged in and message "Incorrect username or
+           password." should be displayed.
